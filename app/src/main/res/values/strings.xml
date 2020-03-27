@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Kaliko</string>
+    <string name="sales">Pesanan</string>
+    <string name="receipts">Bon</string>
+    <string name="settings">Pengaturan</string>
+    <string name="administration">Administrasi</string>
+    <string name="items">Barang</string>
+    <string name="employees">Karyawan</string>
 </resources>
