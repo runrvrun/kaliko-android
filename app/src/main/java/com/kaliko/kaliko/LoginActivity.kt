@@ -62,8 +62,7 @@ class LoginActivity : AppCompatActivity() {
             Fuel.post(LoginURL, listOf(
                 "username" to  etusername!!.text.toString()
                 , "password" to  etpassword!!.text.toString()
-            )).responseJson { request, response, result ->
-                Log.d("plzzzzz", result.get().content)
+            )).responseJson { _, _, result ->
                 onTaskCompleted(result.get().content,LoginTask)
             }
         } catch (e: Exception) {

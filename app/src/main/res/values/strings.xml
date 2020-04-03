@@ -6,4 +6,5 @@
     <string name="administration">Administrasi</string>
     <string name="items">Barang</string>
     <string name="employees">Karyawan</string>
+    <string name="add_order">Add Order</string>
 </resources>
